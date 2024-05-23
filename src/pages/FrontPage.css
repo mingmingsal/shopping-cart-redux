@@ -1,0 +1,36 @@
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.frontScreen{
+    width:100%;
+    height: calc(100vh - 150px);
+    background-image: url('../assets/images/frontpage.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+.frontScreen h2 {
+    color: white;
+    font-family: "Sedgwick Ave", cursive;
+    text-transform: uppercase;
+    text-shadow: .3rem .3rem rgba(0,0,0,75%);
+    font-size: 5rem;
+}
+button {
+    background-color: rgba(0,0,0,50%);
+    width:15rem;
+    height: 3rem;
+    color:white;
+    font-family: 'Nexa Heavy', sans-serif;
+    border-color: white;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border-style: solid;
+}

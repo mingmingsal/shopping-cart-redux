@@ -1,0 +1,24 @@
+nav {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Nexa ExtraLight", sans-serif;
+}
+.links {
+  gap: 20px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.accountLinks {
+  gap: 1rem;
+  
+}
+.accountLinks img {
+    width: 2rem;
+}
