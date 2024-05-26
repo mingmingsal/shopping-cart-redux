@@ -11,6 +11,7 @@ ul {
     background-image: url('../assets/images/frontpage.jpg');
     background-repeat: no-repeat ;
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
